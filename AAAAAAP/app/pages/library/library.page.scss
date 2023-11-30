@@ -1,0 +1,16 @@
+.data-row {
+    border-bottom: 1px solid rgb(90, 90, 90)
+}
+.header-col {
+    text-align: center;
+    color: var(--ion-color-success);
+}
+.actions-col {
+    padding-left: 30px;
+  }
+  .book-image {
+    width: 400%;  // O ajusta el porcentaje deseado
+    height: auto; // Mantiene la proporción original de la imagen
+    max-width: none; // Permite que la imagen supere su tamaño original si es necesario
+    max-height: none; // Permite que la imagen supere su tamaño original si es necesario
+  }
